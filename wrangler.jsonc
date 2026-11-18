@@ -4,6 +4,7 @@
   "main": "src/index.ts",
   "compatibility_date": "2026-11-01",
   "upload_source_maps": true,
+  "routes": [{ "pattern": "paste.modrinth.com", "custom_domain": true }],
   "observability": { "enabled": true, "traces": { "enabled": true } },
   "placement": { "mode": "smart" },
   // Built from the paste submodule by `pnpm run build:paste`
@@ -15,7 +16,7 @@
     "CachedApp": { "type": "worker", "cache": { "enabled": true } },
   },
   "kv_namespaces": [
-    { "binding": "INDEX", "id": "REPLACE_WITH_KV_NAMESPACE_ID" },
+    { "binding": "INDEX", "id": "292bb9d30c914bb5a5d7254da9f28bcc" },
   ],
   "r2_buckets": [{ "binding": "CONTENT", "bucket_name": "bytebin" }],
   // Limits are approximate and counted per Cloudflare location. Periods can only be 10 or 60 seconds.
