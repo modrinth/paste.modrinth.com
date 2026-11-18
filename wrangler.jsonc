@@ -18,7 +18,7 @@
   "kv_namespaces": [
     { "binding": "INDEX", "id": "292bb9d30c914bb5a5d7254da9f28bcc" },
   ],
-  "r2_buckets": [{ "binding": "CONTENT", "bucket_name": "bytebin" }],
+  "r2_buckets": [{ "binding": "CONTENT", "bucket_name": "bytebin-data" }],
   // Limits are approximate and counted per Cloudflare location. Periods can only be 10 or 60 seconds.
   "ratelimits": [
     // upstream default: 30 per 10 minutes
